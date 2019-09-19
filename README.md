@@ -10,14 +10,23 @@ A live version can be found [here](https://raw.githack.com/davidauza-engineer/Us
 
 ## Screenshots
 
-### Screenshot 1
+### Screenshot 1 - xs
 
 ![Screenshot 1](screenshots/1.png)
 
-### Screenshot 2
+### Screenshot 2 - sm
 
 ![Screenshot 2](screenshots/2.png)
 
-### Screenshot 3
+### Screenshot 3 - md
 
 ![Screenshot 3](screenshots/3.png)
+
+
+### Screenshot 4 - lg
+
+![Screenshot 4](screenshots/4.png)
+
+### Screenshot 5 - xl
+
+![Screenshot 5](screenshots/5.png)
