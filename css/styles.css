@@ -109,6 +109,35 @@ nav::before {
   font-size: 17px;
 }
 
+/* Selector for section's titles */
+.section-title {
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+/* Selector for the category link inside the image at sections */
+.section-image-category {
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px 15px;
+  background-color: rgba(255, 255, 255, 0.9);;
+}
+
+/* Selector for the category link inside the image at sections when hovering */
+.section-image-category:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR ABOVE 360px
 ==============================================================================*/
