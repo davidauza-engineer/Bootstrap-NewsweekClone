@@ -138,6 +138,49 @@ nav::before {
   color: #f72210;
 }
 
+/* Selector for the headers at the different sections */
+.section-header {
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Selector for the links at the headers at the different sections */
+.section-header-link {
+  color: black;
+}
+
+/* Selector for the links at the headers at the different sections when hovering */
+.section-header-link:hover {
+  color: black;
+  text-decoration-color: #f72210;
+}
+
+/* Selector for paragraphs at the different sections */
+.section-paragraph {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* Selector for the related headers at different sections */
+.section-related-header {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  color: black;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 16px;
+  display: block;
+}
+
+/* Selector for the related headers at different sections */
+.section-related-header:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR ABOVE 360px
 ==============================================================================*/
