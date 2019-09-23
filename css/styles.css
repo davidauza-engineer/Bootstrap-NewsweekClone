@@ -162,6 +162,7 @@ nav::before {
   color: #333;
   font-size: 13px;
   line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Selector for the related headers at different sections */
@@ -171,7 +172,7 @@ nav::before {
   font-weight: bold;
   color: black;
   border-top: 1px solid #d9d9d9;
-  padding-top: 16px;
+  padding-top: 8px;
   display: block;
 }
 
@@ -179,6 +180,29 @@ nav::before {
 .section-related-header:hover {
   color: #f72210;
   text-decoration: none;
+}
+
+.second-section-img {
+  width: 100%;
+}
+
+/* Selector for second section headers */
+.second-section-header {
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Selector for second section header's links */
+.second-section-header-link {
+  color: black;
+}
+
+/* Selector for second section header's links when hovering */
+.second-section-header-link:hover {
+  color: black;
+  text-decoration-color: #f72210;
 }
 
 /*==============================================================================
