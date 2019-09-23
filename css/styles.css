@@ -182,6 +182,7 @@ nav::before {
   text-decoration: none;
 }
 
+/* Selector for images at second section */
 .second-section-img {
   width: 100%;
 }
