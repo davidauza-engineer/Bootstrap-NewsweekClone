@@ -206,6 +206,67 @@ nav::before {
   text-decoration-color: #f72210;
 }
 
+/* Selector for the third section */
+.third-section {
+  background-color: #f4f5f7;
+}
+
+/* Selector for headers at the third section */
+.third-section-header {
+  padding: 15px 10px 20px 10px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: Lora, serif;
+  margin-bottom: 0;
+}
+
+/* Selector for the header's link at the third section when hovering */
+.third-section-header-link {
+  color: #272727;
+}
+
+/* Selector for the header's link at the third section when hovering */
+.third-section-header-link:hover {
+  color: #272727;
+  text-decoration: none;
+}
+
+/* Selector for paragraphs at the third section */
+.third-section-paragraph {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+  margin-bottom: 10px;
+  padding: 0 10px;
+  bottom: 10px;
+}
+
+/* Selector for the container for the anchors describing the category at the third section */
+.third-section-category-container {
+  bottom: 8px;
+}
+
+/* Selector for anchors describing the category at the third section */
+.third-section-category {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #272727;
+  background-color: #c2d4d7;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+/* Selector for anchors describing the category at the third section when
+hovering*/
+.third-section-category:hover {
+  color: #c2d4d7;
+  background-color: #272727;
+  text-decoration: none;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR ABOVE 360px
 ==============================================================================*/
