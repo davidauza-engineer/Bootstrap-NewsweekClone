@@ -373,6 +373,18 @@ hovering*/
   text-decoration: none;
 }
 
+/* Selector for see all features anchor at section nine */
+.section-nine-features {
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  padding: 10px 10px 10px 12px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR ABOVE 360px
 ==============================================================================*/
