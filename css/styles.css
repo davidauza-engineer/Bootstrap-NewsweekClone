@@ -303,6 +303,76 @@ hovering*/
   font-weight: bold;
 }
 
+/* Selector for the eighth section */
+.eighth-section {
+  max-width: 300px;
+  height: 162px;
+  background-color: #f4f5f6;
+}
+
+/* Selector for the newsweek icon first found at the eighth section */
+.newsweek-icon {
+  flex: none;
+  display: inline-block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg)
+      center/contain no-repeat #F7221E;
+  margin: 28px 10px 0 22px
+}
+
+/* Selector for the header at the eighth section */
+.eighth-section-header {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 19px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  bottom: 16px;
+}
+
+/* Selector for the newsletter span at the eighth section */
+.newsletter-span {
+  margin-left: 66px;
+}
+
+/* Selector for the container of the button and anchor at the eighth section */
+.sign-up-container {
+  bottom: 5px;
+}
+
+/* Selector for the eighth section's button */
+.eighth-section-button {
+  margin: 0 0 10px 22px;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: #666;
+  text-transform: uppercase;
+}
+
+/* Selector for the eighth section's button when hovering*/
+.eighth-section-button:hover {
+  background-color: rgba(102, 102, 102, 0.7);
+}
+
+/* Selector for the anchor at the eighth section */
+.eighth-section-a {
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+  margin-left: 22px;
+}
+
+/* Selector for the anchor at the eighth section when hovering */
+.eighth-section-a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR ABOVE 360px
 ==============================================================================*/
