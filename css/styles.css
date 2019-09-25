@@ -486,9 +486,24 @@ hovering*/
   padding: 0;
 }
 
+/* Selector for the headers at section twelve */
 .section-twelve-header {
   font-size: 18px;
   line-height: 18px;
+}
+
+/* Selector for the anchor at the h1 tag at section thirteen */
+.section-thirteen-title-link {
+  color: #f72210;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+/* Selector for the anchor at h1 tag at section thirteen when hovering */
+.section-thirteen-title-link:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 /*==============================================================================
