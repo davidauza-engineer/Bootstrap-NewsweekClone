@@ -320,7 +320,7 @@ hovering*/
 }
 
 /* Selector for the slideshow effect for the newsweek icon */
-.newsweek-icon::after {
+.slideshows-icon::after {
   border-bottom: 3px solid red;
   border-right: 3px solid red;
   display: block;
