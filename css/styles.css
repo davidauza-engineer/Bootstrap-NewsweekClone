@@ -167,8 +167,8 @@ nav::before {
 
 /* Selector for the related headers at different sections */
 .section-related-header {
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 19px;
+  line-height: 22px;
   font-weight: bold;
   color: black;
   border-top: 1px solid #d9d9d9;
@@ -681,6 +681,17 @@ MEDIA QUERIES FOR ABOVE 500px
   /* Selector for the menu icon at the navbar */
   .menu-icon-navbar {
     width: 50px;
+  }
+}
+
+/*==============================================================================
+MEDIA QUERIES FOR ABOVE 768px
+ =============================================================================*/
+@media (min-width: 768px) {
+  /* Selector for the related headers at different sections */
+  .section-related-header {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 12px;
   }
 }
 
