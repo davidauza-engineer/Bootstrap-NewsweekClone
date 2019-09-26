@@ -575,6 +575,13 @@ hovering*/
   text-transform: uppercase;
 }
 
+/* Selector for the newsletter image at the bottom of the page */
+.newsletter-img {
+  height: 160px;
+  object-position: center;
+  object-fit: cover;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR ABOVE 360px
 ==============================================================================*/
