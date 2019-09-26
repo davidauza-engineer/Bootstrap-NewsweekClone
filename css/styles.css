@@ -505,6 +505,76 @@ hovering*/
   text-decoration: none;
 }
 
+/* Selector for the divider before the subscribe section */
+.subscribe-section::before {
+  content: "";
+  display: block;
+  background-color: #f4f5f6;
+  height: 2px;
+  position: relative;
+  right: 15px;
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+/* Selector for titles at the bottom section */
+.bottom-section-title {
+  color: #f72210;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+/* Selector for subscribe article at the bottom of the page */
+.subscribe-article {
+  background-color: #f4f5f6;
+}
+
+/* Selector for the first newsweek cover at the bottom of the page */
+.newsweek-cover-one {
+  left: 45px;
+  max-width: 49%;
+}
+
+/* Selector for the second newsweek cover at the bottom of the page */
+.newsweek-cover-two {
+  right: 45px;
+  top: 15px;
+  max-width: 49%;
+}
+
+/* Selector for bottom article's headers */
+.bottom-section-article-header {
+  margin-bottom: 15px;
+  line-height: 28px;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* Selector for standard text at the bottom section */
+.bottom-section-article-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Selector for buttons at the bottom section */
+.bottom-section-button {
+  background-color: #f72210;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR ABOVE 360px
 ==============================================================================*/
