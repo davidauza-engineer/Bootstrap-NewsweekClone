@@ -723,6 +723,42 @@ MEDIA QUERIES FOR ABOVE 768px
   .tenth-section-title-container {
     border-bottom: 1px solid #d9d9d9;
   }
+
+  /* Selector for the headers at section twelve */
+  .section-twelve-header {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  /* Selector for the newsletter image at the bottom of the page */
+  .newsletter-img {
+    height: 191px;
+  }
+
+  /* Selector for the ul containing social media icons at the footer */
+  .footer-social-media-list {
+    position: absolute;
+    right: 0;
+  }
+
+  /* Selector for label tags. There is a label tag at the footer */
+  label {
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 8px;
+  }
+
+  /* Selector to li elements at second to last links list */
+  .footer-last-links {
+    margin-right: 10px;
+  }
+
+  /* Selector for links at the footer */
+  .footer-link {
+    margin: 6px 0 6px 0;
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+  }
 }
 
 /*==============================================================================
