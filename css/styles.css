@@ -182,11 +182,6 @@ nav::before {
   text-decoration: none;
 }
 
-/* Selector for the second section container */
-.second-section-container {
-  height: 860px;
-}
-
 /* Selector for images at second section */
 .second-section-img {
   width: 100%;
@@ -793,5 +788,25 @@ MEDIA QUERIES FOR ABOVE 992px
   .right-navbar-item {
     position: relative;
     bottom: 50px;
+  }
+
+  /* Selector for the seventh section container */
+  .seventh-section-container {
+    width: auto;
+  }
+
+  /* Selector for the eighth section */
+  .eighth-section {
+    height: auto;
+  }
+
+  /* Selector for 16px font size */
+  .font-lg-sixteen {
+    font-size: 16px;
+  }
+
+  /* Selector for 14px font size */
+  .font-lg-fourteen {
+    font-size: 14px;
   }
 }
