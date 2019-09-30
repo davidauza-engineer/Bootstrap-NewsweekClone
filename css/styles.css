@@ -659,13 +659,9 @@ MEDIA QUERIES FOR ABOVE 360px
 
   /* Selector for the sign in anchor at the navbar */
   .navbar-text {
-    font-size: 14px;
-  }
-
-  /* Selector for the sign in anchor at the navbar */
-  .navbar-text {
     position: relative;
     right: 8px;
+    font-size: 14px;
   }
 
   /* Selector for the sign in anchor at the navbar */
