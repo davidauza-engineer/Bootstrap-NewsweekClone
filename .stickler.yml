@@ -5,7 +5,7 @@ linters:
 
 files:
     ignore:
-        - 'normalize.css'
+        - 'bootstrap.min.css'
         
 fixers:
     enable: true
