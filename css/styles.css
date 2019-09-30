@@ -54,7 +54,7 @@ nav::before {
   padding: 6px 3px;
 }
 
-/* Selector for the subscribe anchor at the navbar when hovering*/
+/* Selector for the subscribe anchor at the navbar when hovering */
 .subscribe-navbar:hover {
   color: #f72210;
 }
@@ -71,7 +71,7 @@ nav::before {
   width: 24px;
 }
 
-/* Selector for the date located at the navbar*/
+/* Selector for the date located at the navbar */
 .navbar-date {
   font-size: 16px;
   margin-left: 10px;
@@ -129,7 +129,7 @@ nav::before {
   color: #f72210;
   text-transform: uppercase;
   padding: 8px 15px 9px 15px;
-  background-color: rgba(255, 255, 255, 0.9);;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* Selector for the category link inside the image at sections when hovering */
@@ -260,7 +260,7 @@ nav::before {
 }
 
 /* Selector for anchors describing the category at the third section when
-hovering*/
+hovering */
 .third-section-category:hover {
   color: #c2d4d7;
   background-color: #272727;
@@ -315,7 +315,7 @@ hovering*/
   display: inline-block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #F7221E;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f7221e;
   margin: 28px 10px 0 0;
 }
 
@@ -369,7 +369,7 @@ hovering*/
   text-transform: uppercase;
 }
 
-/* Selector for the eighth section's button when hovering*/
+/* Selector for the eighth section's button when hovering */
 .eighth-section-button:hover {
   background-color: rgba(102, 102, 102, 0.7);
 }
@@ -454,7 +454,7 @@ hovering*/
   color: black;
 }
 
-/* Selector for the link which is the header of each article at section ten when hovering*/
+/* Selector for the link which is the header of each article at section ten when hovering */
 .tenth-section-header-link:hover {
   color: black;
   text-decoration-color: #f72210;
@@ -617,7 +617,7 @@ hovering*/
   align-items: flex-end;
 }
 
-/* Selector for the social media links at the footer*/
+/* Selector for the social media links at the footer */
 .footer-social-media-link {
   line-height: 24px;
   font-size: 26px;
@@ -646,11 +646,10 @@ label {
   display: inline-block;
 }
 
-/*==============================================================================
+/* ==============================================================================
 MEDIA QUERIES FOR ABOVE 360px
-==============================================================================*/
+============================================================================== */
 @media (min-width: 360px) {
-
   /* Selector for the newsweek logo at the navbar */
   .newsweek-nav-logo {
     width: 132px;
@@ -675,15 +674,15 @@ MEDIA QUERIES FOR ABOVE 360px
   }
 }
 
-/*==============================================================================
+/* ==============================================================================
 MEDIA QUERIES FOR ABOVE 500px
-==============================================================================*/
+============================================================================== */
 @media (min-width: 500px) {
   /* Selector for the sign in anchor at the navbar */
   .navbar-text {
     font-size: 18px;
     padding: 0 10px;
-    right: 16px
+    right: 16px;
   }
 
   /* Selector for the right arrow at the navbar */
@@ -697,9 +696,9 @@ MEDIA QUERIES FOR ABOVE 500px
   }
 }
 
-/*==============================================================================
+/* ==============================================================================
 MEDIA QUERIES FOR ABOVE 768px
- =============================================================================*/
+ ============================================================================= */
 @media (min-width: 768px) {
   /* Selector for the related headers at different sections */
   .section-related-header {
@@ -754,9 +753,9 @@ MEDIA QUERIES FOR ABOVE 768px
   }
 }
 
-/*==============================================================================
+/* ==============================================================================
 MEDIA QUERIES FOR ABOVE 992px
-==============================================================================*/
+============================================================================== */
 @media (min-width: 992px) {
   /* Selector for the navbar */
   .navbar {
@@ -769,7 +768,7 @@ MEDIA QUERIES FOR ABOVE 992px
     height: 60px;
   }
 
-  /* Selector for the date located at the navbar*/
+  /* Selector for the date located at the navbar */
   .navbar-date {
     position: relative;
     top: 60px;
@@ -834,9 +833,9 @@ MEDIA QUERIES FOR ABOVE 992px
   }
 }
 
-/*==============================================================================
+/* ==============================================================================
 MEDIA QUERIES FOR ABOVE 1200px
-==============================================================================*/
+============================================================================== */
 @media (min-width: 1200px) {
   /* Selector for the headers at the different sections */
   .section-header {
