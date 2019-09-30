@@ -809,4 +809,9 @@ MEDIA QUERIES FOR ABOVE 992px
   .font-lg-fourteen {
     font-size: 14px;
   }
+
+  /* Selector for the divider before the subscribe section */
+  .subscribe-section::before {
+    margin-bottom: 45px;
+  }
 }
