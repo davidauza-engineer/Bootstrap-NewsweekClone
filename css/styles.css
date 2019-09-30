@@ -814,4 +814,24 @@ MEDIA QUERIES FOR ABOVE 992px
   .subscribe-section::before {
     margin-bottom: 45px;
   }
+
+  /* Selector for the newsletter article at the bottom of the page */
+  .newsletter-article {
+    height: calc(100% - 35px);
+  }
+
+  /* Selector for the container of the image at the newsletter section */
+  .newsletter-img-container {
+    height: 100%;
+  }
+
+  /* Selector for the newsletter image at the bottom of the page */
+  .newsletter-img {
+    height: 100%;
+  }
+
+  /* Selector for bottom article's headers */
+  .bottom-section-article-header {
+    font-size: 24px;
+  }
 }
