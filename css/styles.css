@@ -449,7 +449,6 @@ hovering*/
 /* Selector for the link which is the header of each article at section ten */
 .tenth-section-header-link {
   font-size: 16px;
-  line-height: 16px;
   margin-bottom: 30px;
   font-weight: bold;
   color: black;
@@ -495,7 +494,6 @@ hovering*/
 .section-thirteen-title-link {
   color: #f72210;
   font-size: 22px;
-  line-height: 22px;
   font-weight: bold;
 }
 
@@ -800,13 +798,13 @@ MEDIA QUERIES FOR ABOVE 992px
     height: auto;
   }
 
-  /* Selector for 16px font size */
-  .font-lg-sixteen {
+  /* Selector for text at eighth section */
+  .section-eight-sign-up-text {
     font-size: 16px;
   }
 
-  /* Selector for 14px font size */
-  .font-lg-fourteen {
+  /* Selector for small text at eighth section */
+  .section-eight-small-text {
     font-size: 14px;
   }
 
@@ -833,5 +831,56 @@ MEDIA QUERIES FOR ABOVE 992px
   /* Selector for bottom article's headers */
   .bottom-section-article-header {
     font-size: 24px;
+  }
+}
+
+/*==============================================================================
+MEDIA QUERIES FOR ABOVE 1200px
+==============================================================================*/
+@media (min-width: 1200px) {
+  /* Selector for the headers at the different sections */
+  .section-header {
+    font-size: 24px;
+  }
+
+  /* Selector for paragraphs at the different sections */
+  .section-paragraph {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  /* Selector for text at eighth section */
+  .section-eight-sign-up-text {
+    font-size: 19px;
+  }
+
+  /* Selector for small text at eighth section */
+  .section-eight-small-text {
+    font-size: 15px;
+  }
+
+  /* Selector for special fourth section headers (Sponsored Insights) */
+  .fourth-section-header {
+    line-height: 24px;
+  }
+
+  /* Selector for the eighth section's button */
+  .eighth-section-button {
+    font-size: 18px;
+  }
+
+  /* Selector for the header of each article at section ten */
+  .tenth-section-header {
+    line-height: 20px;
+  }
+
+  /* Selector for the link which is the header of each article at section ten */
+  .tenth-section-header-link {
+    font-size: 20px;
+  }
+
+  /* Selector for the headers at section twelve */
+  .section-twelve-header {
+    font-size: 22px;
   }
 }
