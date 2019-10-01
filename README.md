@@ -2,7 +2,7 @@
 
 This is my solution to Microverse's seventh project. It is a clone of the Newsweek home page. The page is found [here](https://www.newsweek.com/). It is created using HTML5, CSS3 and Bootstrap.
 
-A live version can be found [here](https://raw.githack.com/davidauza-engineer/Using-Bootstrap/home-page/index.html).
+A live version can be found [here](https://rawcdn.githack.com/davidauza-engineer/Using-Bootstrap/8569fb251cea94676ffcc096d5384cf75dde5291/index.html).
 
 ## Project author:
 
